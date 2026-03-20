@@ -37,21 +37,6 @@
   * KS Test 100% 통과, 국면 지속기간 397일의 안정성 확보
   * 노이즈성 전환 확률 최소화 (0.0025)
 
----
-
-## 📁 Repository Structure
-
-```text
-.
-├── notebooks/
-│   ├── 01_baseline_reproduction.ipynb  # 베이스라인 재현
-│   ├── 02_optimal_n_states.ipynb       # HMM 구조 파라미터 탐색
-│   ├── 03_variable_selection.ipynb     # 변수 축소 방식 기초 비교
-│   ├── 04_joint_optimization.ipynb     # Grid Search를 통한 전역 최적화
-│   ├── 05_regime_validation.ipynb      # 통계적 최적 모델의 경제적 검증 (한계 발견)
-│   └── 06_domain_vs_pca.ipynb          # 하이브리드 모델 실험 및 최종 결론
-├── src/                                # 재사용 가능한 모듈화된 파이썬 스크립트
-│   ├── data_loader.py
 │   ├── features.py
 │   ├── hmm_model.py
 │   └── utils.py
